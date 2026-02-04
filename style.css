@@ -1,0 +1,79 @@
+/* index.html */
+
+main{
+border-top: 3px solid black;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo{
+  color: red;
+}
+
+nav ul {
+  display: flex;              
+  justify-content: flex-end;  
+  list-style: none;           
+  margin-right: 50px;     
+  gap: 35px;           
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#team-mitglieder{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+article{
+  padding: 10px;
+  margin-left: 5px;
+  border: solid 2px black;
+  box-shadow: 0 4px 10px;
+  border-radius: 5px;
+}
+
+article:hover{
+  background-color: beige;
+}
+
+.profil{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-ueberschrift{
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+}
+
+#footer-nav{
+  border-top: 3px solid black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  a{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+}
+
+
+
